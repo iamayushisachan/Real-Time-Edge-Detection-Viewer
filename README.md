@@ -35,7 +35,7 @@ cd Real-Time-Edge-Detection-Viewer
 
 ### 3. 🧰 OpenCV SDK Integration
 - Download the OpenCV Android SDK
-- Extract the SDK and place it in:
+- Extract the SDK and place it in
 ```bash
 app/src/main/jniLibs/OpenCV/
 ```
