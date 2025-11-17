@@ -37,7 +37,7 @@ public class RawActivity extends AppCompatActivity implements CameraBridgeViewBa
         cameraBridgeViewBase.setCvCameraViewListener(this);
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
                 != PackageManager.PERMISSION_GRANTED) {
-            // More code here ...
+            //..
         } else {
             Log.d(TAG, "Permissions granted");
             cameraBridgeViewBase.setCameraPermissionGranted();
