@@ -116,7 +116,7 @@ public class ProActivity extends AppCompatActivity implements CameraBridgeViewBa
     public void onRequestPermissionsResult(
             int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
 
-        // Ensure that this result is for the camera permission request
+        
         if (requestCode == PERMISSIONS_READ_CAMERA) {
             // Check if the request was granted or denied
             if (grantResults.length > 0
